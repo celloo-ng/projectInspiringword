@@ -1,4 +1,4 @@
- const randomNum = Math.ceil(Math.random()*3);
+ const randomNum = Math.ceil(Math.random()*4);
  
  console.log(randomNum)
  const inspiringMessage = (topics) => {
@@ -10,7 +10,7 @@
         case (topics === "life" && randomNum === 2): console.log("Hard things happen to us. We will recover, learn from it and grow more resilient."); break;
         case (topics === "life" && randomNum === 3): console.log("Give light and people will find the way."); break;
 
-        default: console.log('dial self or life again for good fortune');
+        default: console.log('dial self or life again');
        }
 
 }
